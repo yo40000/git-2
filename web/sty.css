@@ -1,0 +1,36 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.c1{
+   display: flex;
+   align-items: center; 
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(10, 205, 231);
+}
+.tarjetas{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+article{
+    display: grid;
+    background-color: white;
+    border: solid 2px black;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+    justify-items: center;
+}
+.ia{
+    margin: 10px;
+    border-radius: 5px;
+}
+/*poner un zoom a las imagenes
