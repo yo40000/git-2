@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    background-color: blueviolet;
+}
+.dh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.he{
+width: 80%;
+height: 80%;
+background-image: linear-gradient(blue, red,);
+border: solid black 1px;
+border-radius: 10px;
+
+}
