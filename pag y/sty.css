@@ -5,18 +5,58 @@
     }
 
 body{
-    background-color: blueviolet;
+    background: linear-gradient(to left , rgb(192, 74, 238), rgb(145, 6, 133), rgba(0, 0, 255, 0.411));
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 .dh{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    width: 80%;
 }
 .he{
-width: 80%;
-height: 80%;
-background-image: linear-gradient(blue, red,);
+ display: flex;  
+ justify-content: center; 
+ width: 100%;
+background-color: rgba(113, 40, 156, 0.411);
 border: solid black 1px;
 border-radius: 10px;
 
+
+}
+
+h1{font-family: cursive;}
+
+.padre{
+    display: grid;
+    width: 90%;
+    border: solid white 1px;
+    border-radius: 25px;
+    grid-template-columns: 0, 1fr,1fr,0;
+
+}
+
+.t1{
+    display: grid;
+    width: 50%;
+    border: 1px black solid ;
+    border-radius: 20px;
+    margin:10px;
+   align-content: center;
+   justify-content: center;
+   cursor: pointer;
+   text-align: center;
+}
+.t1:hover{
+    zoom: 150%;
+    color: beige;
+}
+.t1 img{
+    width: 80%;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
 }
