@@ -23,40 +23,54 @@ body{
      width: 100%;
     background-color: rgba(113, 40, 156, 0.411);
     border: solid black 1px;
+    box-shadow: 5px 5px 15px #0006;
     border-radius: 10px;
 }
 
-h1{font-family: cursive;}
+h1{
+    font-family: cursive;
+    text-shadow: 0 0 10px #0006;
+}
+
+h2{
+    font-family: cursive;
+    text-shadow: 0 0 10px #0009;
+}
 
 .padre{
-    display: flex;
+    display: grid;
     width: 90%;
     border: solid white 1px;
+    box-shadow: 5px 5px 15px #0006;
     border-radius: 25px;
-    grid-template-columns: 0, 1fr,1fr,0;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 
 }
 
 .t1{
     display: grid;
-    width: 50%;
     border: 1px black solid ;
+    box-shadow: 5px 5px 15px #0006;
     border-radius: 20px;
     margin:10px;
-   align-content: center;
-   cursor: pointer;
-   text-align: center;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+    
 }
+
+.t1 img{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    height: 150px;
+    border-radius: 20px;
+}
+
 .t1:hover{
     zoom: 150%;
     color: beige;
     border-color: azure;
-}
-.t1 img{
-    display: flex;
-    
-    width:80%;
-    height: 150px;
-    margin: 10px;
-    border-radius: 20px;
+    transition: all 0.75s;
 }
