@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="modal1">Deslizar</a></li>
+        <li><a href="modal2">Rotar</a></li>
+        <li><a href="modal3">Redimensionar</a></li>
+    </ul>
+    <div id="modal1" class="modalmask">
+        <div class="modalbox movedown">
+          <a href="#close" title="close" class="close">X</a> 
+          <h2>Deslizar</h2>
+          <p>modal aparce desde arriba </p> 
+        </div>
+    </div>
+
+    <div id="modal2" class="modalmask">
+        <div class="modalbox rotate">
+            <a href="#close" title="close" class="close">X</a> 
+            <h2>Rotar</h2>
+            <p>este rota desde desde el lateral</p>
+        </div>
+    </div>
+    
+    <div id="modal3" class="modalmask">
+        <div class="modalbox resize">
+            <a href="#close" title="close" class="close">X</a> 
+            <h2>Redimensionar</h2>
+            <p>Redimensionar la ventana hasta hacerla desaparecer</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
