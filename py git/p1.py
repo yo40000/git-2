@@ -5,8 +5,8 @@
 #sin seleccionar el archivo  git log --graph muestra el progreso de la rama
 # graficamente 
 #git alias crear un alias git config --global alias. nombre del alias seguido de las funciones ejmeplo --graph etc
-# git ignore se crea .gitignore lo que se desea ignorar se pone dentro
-# con el sigiente codigo dentro delarchivo **/nombre del archivo 
+# git ignore se crea .gitignore se crea con el comando touch .gitignore dentro se ponen los archivos que se 
+# van a ignorar con el sigiente codigo dentro delarchivo **/.nombre del archivo 
 #git diff muestra las diferencias en el archivo
 #crear una nueva rama con git branch mas el nombre de la rama
 #cambiar de rama git switch mas el nombre de la rama a la que se quiere ir
