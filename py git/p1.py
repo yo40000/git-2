@@ -4,6 +4,7 @@
 #algun archivo modificado para guardar git commit -a guarda los cambios 
 #sin seleccionar el archivo  git log --graph muestra el progreso de la rama
 # graficamente 
+#git alias crear un alias git config --global alias. nombre del alias seguido de las funciones ejmeplo --graph etc
 # git ignore se crea .gitignore lo que se desea ignorar se pone dentro
 # con el sigiente codigo dentro delarchivo **/nombre del archivo 
 #git diff muestra las diferencias en el archivo
@@ -26,4 +27,4 @@ print (num1 - num2)
 print (num1 * num2)
 print (num1 / num2)
 
-print("hola amigos")
+print("hola amigos") 
