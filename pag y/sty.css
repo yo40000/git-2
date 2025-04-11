@@ -37,6 +37,7 @@ h1{
 h2{
     font-family: cursive;
     text-shadow: 0 0 10px #0009;
+    padding: 10px;
 }
 
 .padre{
@@ -72,13 +73,14 @@ h2{
 }
 
 .t1:hover{
-    zoom: 170%;
+    zoom: 160%;
     color: beige;
     border-color: azure;
     transition: all 0.90s;
     position: fixed;
+    
 }
 
 .p1{
-    padding: 30px;
+    padding: 35px;
 }
