@@ -50,6 +50,7 @@ h2{
     grid-auto-rows: auto;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     
+    
 }
 
 .t1{
@@ -79,7 +80,7 @@ h2{
     color: aliceblue;
 }
 
-.t1:hover{
+.t1:active{
     zoom: 160%;
     color: beige;
     border-color: azure;
