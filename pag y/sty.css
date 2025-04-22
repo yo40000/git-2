@@ -48,8 +48,8 @@ h2{
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
     border-radius: 25px;
     grid-auto-rows: auto;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    
 }
 
 .t1{
@@ -83,8 +83,8 @@ h2{
     zoom: 160%;
     color: beige;
     border-color: azure;
-    transition: all 0.90s;
+    transition: all 0.30s;
     position: fixed;
-    
+    font-size: 11px;
 }
 
