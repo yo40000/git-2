@@ -84,8 +84,12 @@ h2{
     zoom: 160%;
     color: beige;
     border-color: azure;
-    transition: all 0.30s;
+    transition: all 0.90s;
     position: fixed;
     font-size: 11px;
 }
 
+ .t1:hover{
+    box-shadow: 5px 5px 15px rgb(255, 0, 0);
+ }
+ 
