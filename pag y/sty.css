@@ -81,10 +81,10 @@ h2{
 }
 
 .t1:active{
-    zoom: 160%;
+    zoom: 140%;
     color: beige;
     border-color: azure;
-    transition: all 0.90s;
+    transition: all 0.55s;
     position: fixed;
     font-size: 11px;
 }
@@ -93,3 +93,11 @@ h2{
     box-shadow: 5px 5px 15px rgb(255, 0, 0);
  }
  
+@media (max-width:820px ){
+    .t1{
+    pointer-events: none; 
+    }
+}
+  
+
+    
