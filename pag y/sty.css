@@ -93,7 +93,7 @@ h2{
     transition: all 0.65s;
     position: fixed;
     top: 0;
-    font-size: 11px;
+    font-size: 14px;
     /*al activar el click la tarjeta hace zoom 140% el position fixed lo saca de su lugar original y lo 
     superpone con una transicion cambia el tamaño de la letra y en el original cambiaba el color de los textos
     el original estab contemplado a ser un hover pero daba muchos problemas en la animacion y top sube la tarjeta 
@@ -111,6 +111,33 @@ h2{
     }
     /*en formato celular no queda bien el zoom ya que apenas cabe la tarjeta por si sola, desactiva todos lo 
     eventos click*/
+
+    @keyframes show{
+        from{
+            opacity: 0;
+            scale: 25%;
+        }
+
+        to{
+            opacity: 1;
+            scale: 100%;
+        }
+    }
+    /*animacion de nombre show empieza con una opacidad de o y un tamño de 25% termina con opacidad 1 escala completa */
+    .t1{
+        view-timeline-name: --image;
+        view-timeline-axis: block;
+
+        animation-timeline: --image;
+        animation-name: show;
+
+        animation-range: entry 25% cover 30%;
+        animation-fill-mode: both;
+    }
+    /*se determina el nombre de la animacion time line se lo pone en que direccion toma el scroll block es vertical
+    line es horizontal se relaciona el scrol con la animacion creada anteriormente se determina el rango en este caso
+    se empieza a mostrar cuando se vea un 25% de la imagen y se termina de mostrar en 30% despues se le dice que es en
+    ambas direcciones */
 }
   
 
