@@ -41,6 +41,7 @@ h2{
     text-shadow: 0 0 10px rgb(241, 6, 6);
     padding: 10px;
     color: aliceblue;
+    
 }
 
 .padre{
@@ -80,20 +81,20 @@ h2{
 }
 
 .p1{
-    padding: 35px;
+    padding: 25px;
     text-shadow: 0 0 15px #fa0965;
     color: aliceblue;
     /*formato de las etiquetas p los textos*/
 }
 
 .t1:active{
-    zoom: 140%;
+    zoom: 120%;
     color: beige;
     border-color: azure;
-    transition: all 0.65s;
+    transition: all 0.70s;
     position: fixed;
     top: 0;
-    font-size: 14px;
+    font-size: 15px;
     /*al activar el click la tarjeta hace zoom 140% el position fixed lo saca de su lugar original y lo 
     superpone con una transicion cambia el tamaño de la letra y en el original cambiaba el color de los textos
     el original estab contemplado a ser un hover pero daba muchos problemas en la animacion y top sube la tarjeta 
