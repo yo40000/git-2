@@ -14,8 +14,10 @@
 # commit si no hay conficto las ramas se conbinan 
 #para guadar cambios en los que seguiras trabajando despues
 #se utiliza el comando git stash no hace un commit pero guada los comabios
+#git stash list lista los cambios temporales, git stash drop para eliminar temporales  
 #para recuperar los cambiso temporales se usa git stash pop
 #eliminacion de ramas git branch -d nombre de la rama 
+#ve cambios entre las ramas git diff (nombre de la rama)
 print("holas")
 print("adios")
 
